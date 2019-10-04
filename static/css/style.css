@@ -1,0 +1,28 @@
+html body {
+  background-color: #1d283a;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #1ad6f1;
+}
+
+.lead {
+  color: #47656d;
+}
+
+.navbar {
+  background-color: #0d111a;
+}
+
+.card {
+  background-color: #1b334d;
+  border-radius: 0px;
+}
+
+.card-city {
+  color: #4eb4bd;
+}
+.city-weather {
+  color: #fff;
+}
