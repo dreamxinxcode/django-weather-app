@@ -30,3 +30,18 @@ def homepage_view(request):
         "weather_data": weather_data,
     }
     return render(request, "main/index.html", context)
+
+
+def about_view(request):
+
+    context = {
+        "title": "Django Weather App | About",
+    }
+    return render(request, "main/about.html", context)
+
+
+def contact_view(request):
+    context = {
+        "title": "Django Weather App | Contact",
+    }
+    return render(request, "main/contact.html", context)
