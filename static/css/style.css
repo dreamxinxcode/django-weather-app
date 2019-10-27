@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 html body {
   background-color: #1d283a;
   font-family: "Open Sans", sans-serif;
@@ -5,6 +7,8 @@ html body {
 
 h1 {
   color: #1ad6f1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
 
 .lead {
@@ -15,6 +19,22 @@ h1 {
   background-color: #0d111a;
 }
 
+.nav-item{
+  color: #1ad6f1;
+  font-weight: 900;
+}
+
+.nav-icon{
+  color: #1ad6f1;
+}
+
+.featured-cities-header{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  color: #1ad6f1;
+}
+
 .card {
   background-color: #1b334d;
   border-radius: 0px;
@@ -22,7 +42,24 @@ h1 {
 
 .card-city {
   color: #4eb4bd;
+  word-break: keep-all;
 }
 .city-weather {
   color: #fff;
+}
+
+.city-search{
+  background-color: #1b334d;
+  border: 3px solid #1ad6f1;
+  padding: 15px;
+}
+
+.city-submit{
+  color: #4eb4bd;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #1b334d;
+  border: 3px solid #1ad6f1;
+  border-radius: 0px;
+  padding: 15px;
 }
